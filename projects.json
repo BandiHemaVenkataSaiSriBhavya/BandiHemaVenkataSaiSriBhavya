@@ -1,0 +1,16 @@
+[
+  {
+    "name": "InterviewNovaAI",
+    "description": "AI interview platform with resume analysis, ATS scoring, mock interviews and coding tests.",
+    "language": "Python",
+    "color": "#3776AB",
+    "url": "https://github.com/yourusername/InterviewNovaAI"
+  },
+  {
+    "name": "DevPortfolio",
+    "description": "Modern GitHub portfolio with animated SVG banner and GitHub Actions.",
+    "language": "TypeScript",
+    "color": "#3178C6",
+    "url": "https://github.com/yourusername/DevPortfolio"
+  }
+]
