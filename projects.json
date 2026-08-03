@@ -1,16 +1,26 @@
 [
   {
     "name": "InterviewNovaAI",
-    "description": "AI interview platform with resume analysis, ATS scoring, mock interviews and coding tests.",
-    "language": "Python",
-    "color": "#3776AB",
-    "url": "https://github.com/yourusername/InterviewNovaAI"
+    "repo": "BandiHemaVenkataSaiSriBhavya/InterviewNovaAI",
+    "description": "AI-powered interview preparation platform featuring mock interviews, resume ATS analysis, speech evaluation, coding practice, and performance analytics.",
+    "logo": "",
+    "tags": [
+      "Python",
+      "React",
+      "FastAPI",
+      "Supabase"
+    ]
   },
   {
-    "name": "DevPortfolio",
-    "description": "Modern GitHub portfolio with animated SVG banner and GitHub Actions.",
-    "language": "TypeScript",
-    "color": "#3178C6",
-    "url": "https://github.com/yourusername/DevPortfolio"
+    "name": "DataPulse-AI",
+    "repo": "BandiHemaVenkataSaiSriBhavya/DataPulse-AI",
+    "description": "AI-powered business intelligence dashboard for interactive analytics, visualizations, executive reporting, and AI-generated insights.",
+    "logo": "",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "Groq AI"
+    ]
   }
 ]
