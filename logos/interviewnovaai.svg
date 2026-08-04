@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="novaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="50%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#BE185D" />
+    </linearGradient>
+    <filter id="glowNova" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Outer Glowing Circular Ring -->
+  <circle cx="64" cy="64" r="58" fill="rgba(236,72,153,0.08)" stroke="url(#novaGrad)" stroke-width="4" filter="url(#glowNova)"/>
+  
+  <!-- AI Chat Bubble / Neural Network Core -->
+  <g transform="translate(24, 28)" filter="url(#glowNova)">
+    <path d="M40 10 C15 10 0 25 0 45 C0 58 8 68 20 73 L15 85 L32 78 C38 80 45 80 50 80 C75 80 80 60 80 45 C80 25 65 10 40 10 Z" fill="none" stroke="url(#novaGrad)" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Neural Nodes -->
+    <circle cx="25" cy="40" r="5" fill="#F472B6" />
+    <circle cx="55" cy="40" r="5" fill="#BE185D" />
+    <circle cx="40" cy="55" r="5" fill="#EC4899" />
+    <!-- Connecting Lines -->
+    <line x1="25" y1="40" x2="40" y2="55" stroke="url(#novaGrad)" stroke-width="2" />
+    <line x1="55" y1="40" x2="40" y2="55" stroke="url(#novaGrad)" stroke-width="2" />
+    <line x1="25" y1="40" x2="55" y2="40" stroke="url(#novaGrad)" stroke-width="2" stroke-dasharray="2 2" />
+  </g>
+</svg>
