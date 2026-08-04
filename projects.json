@@ -3,7 +3,7 @@
     "name": "InterviewNovaAI",
     "repo": "BandiHemaVenkataSaiSriBhavya/InterviewNovaAI",
     "description": "AI-powered interview preparation platform featuring mock interviews, resume ATS analysis, speech evaluation, coding practice, and performance analytics.",
-    "logo": "",
+    "logo": "interviewnovaai.svg",
     "tags": [
       "Python",
       "React",
@@ -15,7 +15,7 @@
     "name": "DataPulse-AI",
     "repo": "BandiHemaVenkataSaiSriBhavya/DataPulse-AI",
     "description": "AI-powered business intelligence dashboard for interactive analytics, visualizations, executive reporting, and AI-generated insights.",
-    "logo": "",
+    "logo": "datapulse-ai.svg",
     "tags": [
       "React",
       "TypeScript",
